@@ -1,0 +1,215 @@
+* {
+    color: black;
+    font-family: sans-serif !important;
+}
+.header {
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header .header-encode,
+.header-decode {
+    border: none;
+    padding: 5px 10px;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.header .header-encode.active,
+.header-decode.active {
+    border-bottom: 2px solid #0178d4;
+}
+
+.header .header-encode:hover,
+.header-decode:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.form-encode {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-decode {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.encode-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.value {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.value > div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.value label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.value input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.key-secret {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.key-secret label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.key-secret input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    flex-grow: 1;
+}
+
+.key-secret button {
+    margin-left: 10px;
+}
+
+.visible-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin-bottom: 30px;
+}
+
+.visible-content label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.visible-content textarea {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    resize: vertical;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-create-key {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create-value-random {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0px auto;
+}
+
+.div-btn-create {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.action button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.action button:hover {
+    background-color: #0056b3;
+}
+
+#int-plain {
+    margin-top: 20px;
+}
+
+#int-code {
+    margin-top: 20px;
+}
+
+#out-plain {
+    margin-top: 20px;
+}
+
+#out-code {
+    margin-top: 20px;
+}
+
+#btn-update-key {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.file {
+    border: none;
+}
+.chose-tv {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.value-piece-key {
+    margin-top: 30px;
+}
+
+.info-key-people {
+    gap: 20px;
+}
